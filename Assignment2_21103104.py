@@ -63,7 +63,7 @@ print("\n")
 
 
 #QUESTION 5
-string = input("ENTER A STRING")
+string = input("ENTER A STRING ")
 if 'name' in string:
     print ("Yes")
 else:
