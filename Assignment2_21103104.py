@@ -63,8 +63,8 @@ print("\n")
 
 
 #QUESTION 5
-word_present=input("ENTER A STRING")
-if (word_present.find('name') != -1):
+string = input("ENTER A STRING")
+if 'name' in string:
     print ("Yes")
 else:
     print ("No")
@@ -81,6 +81,9 @@ elif(side_2>(side_1+side_2)):
     print("No")
 elif(side_3>(side_1+side_2)):
     print("No")
+elif(side_1 < 0 or side_2 < 0 or side_3 < 0)
+    print("No")
+#All sides should be positive and sum of any two sides should be greater than the third side : Condition to form a triangle
 else:
     print("Yes")
 print("\n")
