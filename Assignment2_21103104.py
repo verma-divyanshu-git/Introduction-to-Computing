@@ -20,10 +20,11 @@ print("\n")
 NAME=input("ENTER YOUR NAME ")
 SID=int(input("ENTER YOUR SID "))
 DEPARTMENT=input("ENTER YOUR DEPARTMENT ")
-CGPA=float(input("ENTER YOUR CGPA "))
+CGPA= float(input("ENTER YOUR CGPA "))
+rounded_value = round(CGPA, 1) #because the cgpa to be printed is 9.9 and not 9.90000
 print("Hey %s,"%NAME,"Here!")
 print("My SID is %d" %SID)
-print("I am from %s"%DEPARTMENT,"and my CGPA is %f"%CGPA)
+print("I am from %s"%DEPARTMENT,"and my CGPA is ",rounded_value)
 print("\n")
 
 
