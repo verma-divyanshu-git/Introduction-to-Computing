@@ -17,7 +17,7 @@ ENTER YOUR DEPARTMENT CSE
 ENTER YOUR CGPA 9.9
 Hey Divyanshu, Here!
 My SID is 21103104
-I am from CSE and my CGPA is 9.900000
+I am from CSE and my CGPA is  9.9
 
 
 #Output3
