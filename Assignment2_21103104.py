@@ -51,9 +51,9 @@ number_1 = int(input("Enter first number: "))
 number_2 = int(input("Enter second number: "))
 number_3 = int(input("Enter third number: "))
  
-if (number_1 > number_2) and (number_1 > number_3):
+if (number_1 >= number_2) and (number_1 >= number_3):
    largest = number_1
-elif (number_2 > number_1) and (number_2 > number_3):
+elif (number_2 >= number_1) and (number_2 >= number_3):
    largest = number_2
 else:
    largest = number_3
@@ -76,11 +76,11 @@ print("\n")
 side_1=int(input("ENTER LENGTH OF FIRST SIDE OF TRIANGLE : "))
 side_2=int(input("ENTER LENGTH OF SECOND SIDE OF TRIANGLE : "))
 side_3=int(input("ENTER LENGTH OF THIRD SIDE OF TRIANGLE : "))
-if(side_1>(side_2+side_3)):
+if(side_1>=(side_2+side_3)):
     print("No")
-elif(side_2>(side_1+side_2)):
+elif(side_2>=(side_1+side_2)):
     print("No")
-elif(side_3>(side_1+side_2)):
+elif(side_3>=(side_1+side_2)):     #Equality sign is used because if sum of two sides is equal to third side, then also triangle is not formed.
     print("No")
 elif(side_1 < 0 or side_2 < 0 or side_3 < 0)
     print("No")
